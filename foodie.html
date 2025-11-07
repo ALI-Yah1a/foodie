@@ -15,7 +15,7 @@
   </head>
   <body>
     <script src="foodie.js"></script>
-    <div class="FOODIE RECIPES">
+    <div class="foodie-recipes">
       <h1>FOODIE RECIPES</h1>
       <div class="get-random-recipe-container">
         <button id="main-button" class="get-random-recipe-button">
@@ -33,6 +33,13 @@
         />
         <button type="submit" id="search-button">Search</button>
       </form>
+      <div class="search-results" id="search-results"></div>
+    </div>
+    <div class="modal-container hidden" id="recipe-modal">
+      <div class="modal-content">
+        <button id="modal-close-btn" class="modal-close-btn">+</button>
+        <div id="recipe-details-content"></div>
+      </div>
     </div>
   </body>
 </html>
